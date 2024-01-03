@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   godot-cpp-tests:
-    runs-on: "ubuntu-20.04"
+    runs-on: "warp-ubuntu-latest-x64-2x"
     name: "Build and test Godot CPP"
     steps:
       - uses: actions/checkout@v4
